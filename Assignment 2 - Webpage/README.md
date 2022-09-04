@@ -26,7 +26,7 @@ The Idea is to make a webpage of personal portfolio showcasing various projects 
 
 
 ## Final Result ##
-[!Homepage](https://github.com/Tauke190/Connections-Lab/blob/master/Assignment%202%20-%20Webpage/HomePage.png)
+![Homepage](https://github.com/Tauke190/Connections-Lab/blob/master/Assignment%202%20-%20Webpage/HomePage.png)
 
 
 
