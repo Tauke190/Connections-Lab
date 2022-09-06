@@ -16,6 +16,8 @@
 }
 
 #myVideo {
+	display: flex;
+	align-items: center;
 	position: relative;
 	right: 0;
 	bottom: 0;
