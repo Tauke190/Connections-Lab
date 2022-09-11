@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.product {
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute; 
+}
+
+.product-image-small img{
+	
+	height: 92px;
+	margin: 10px 0px;
+	cursor: pointer;
+	display: block;
+	opacity: 0.6;
+}
+
+.product-image-small img:hover{
+	
+	height: 92px;
+	margin: 10px 0px;
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+.product-image-big img{
+	margin: 10px 0px;
+	height: 500px;
+}
+
+.product-image-small {
+	float: left;
+}
+
+.product-image-big {
+	float: right;
+}
+
+.customereview {
+	width: 100%;
+	height: 100vh;
+	padding-top: 500px;
+	display: flex;
+	background-color: #f6fbff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.customereview h1 {
+	margin-bottom: 50px;
+	
+}
+
+
+.review-box {
+
+	
+	width: 90%;
+	max-width: 700px;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
+	position: relative;
+	overflow: hidden;
+}
+
+.card {
+	height: 300px;
+	padding: 40px;
+	color: #444;
+	line-height: 22px;
+	box-sizing: border-box;
+	background: #fff ;
+	position: relative;
+
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.profile img{
+	width: 70px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.profile h3{
+	font-size: 26px;
+	color : burlywood;
+	margin-bottom: 8px;
+}
+
+#slide {
+	width: 100%;
+	padding-right: 60px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+
+.sidebar {
+	width: 60px;
+	height: 100%;
+	padding: 15px 0;
+	box-sizing: border-box;
+	background: green;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sidebar img{
+
+	width: 25px;
+	padding: 5px;
+	background: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+
+}
+
+

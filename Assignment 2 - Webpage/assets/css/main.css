@@ -199,7 +199,6 @@ p {
 	flex-basis: 31%;
 	background: #fff3f3;
 	border-radius: 10px;
-	margin-bottom: 10%;
 	box-sizing: border-box;
 }
 
@@ -207,3 +206,65 @@ p {
 	width: 70%;
 	height: 70%;
 }
+
+.Campus {
+	margin: auto;
+	padding: 100px;
+	color: black;
+	align-items: center;
+}
+
+.Campus h1{
+	color: black;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+.Campus-col{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	position: relative;
+}
+
+.Campus-col image{
+	width: 100%;
+	display: block;
+}
+.layer {
+	background-color :transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.layer:hover{
+	background-color: rgba(227, 0, 0, 0.6)
+}
+
+.layer h3 {
+	width: 100%;
+	font-weight: 600;
+	color:#fff;
+	font-size: 30px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.layer:hover h3 {
+	bottom: 50%;
+	position: absolute;
+	opacity: 1;
+}
+
+
+
+
