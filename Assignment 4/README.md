@@ -16,6 +16,6 @@ a data visualization of the graph
 
 ## Final Results ##
 
-![](https://github.com/Tauke190/Connections-Lab/blob/master/Assignment%204/legend.png)
+![](https://github.com/Tauke190/Connections-Lab/blob/master/Assignment%204/legendwhite.png)
 
 ![Graph](https://raw.githubusercontent.com/Tauke190/Connections-Lab/master/Assignment%204/final.png)
