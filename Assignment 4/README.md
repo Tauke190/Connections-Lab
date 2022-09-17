@@ -16,4 +16,4 @@ a data visualization of the graph
 
 ## Final Results ##
 
-![]('https://raw.githubusercontent.com/Tauke190/Connections-Lab/master/Assignment%204/final.png')
+![Graph](https://raw.githubusercontent.com/Tauke190/Connections-Lab/master/Assignment%204/final.png)
