@@ -1,8 +1,20 @@
 # Weather App #
 
 
-## Idea ##
+## Production ##
+
+### Idea ###
 I aim to create a very simple weather web app that can display the image of the city and the weather when the user queries upon it. I plan to make a very minimalistic design that provides essential information regarding weather like temperature,humidity,windspeed etc. I will be using splash API for getting images of the city and I will be using openweather API to get the information of the weather by city name. The user can enter a valid city name and get the essential information about the current weather in that city. I am planning to expand my project as well to a map. So you can pinpoint the location on the map to get the weather data.The user interaction in the app is to enter the name of the valid city to retrieve the information about the weather
+
+### Technical Decision ###
+1. I am exploring API which provides relevant weather data
+2. I plan to use D3.js library because of its flexibility to draw SVG files from JSON data
+3. I plan to develop the entire project using object oriented approach by making objects and encapsulating it with functions
+
+### Design Decision ###
+1. I plan to move forward with a modern minimalistic design for the website
+2. The user can hover and click in the world map which will pop up with a simple animation and display weather data for that location
+3. Since it takes alot of time to download the image , I am planning to make some sort of interactive game when the image loads for the new place
 
  ## User Interaction ##
  <img width="500" alt="Screen Shot 2022-09-19 at 12 12 12 AM" src="https://user-images.githubusercontent.com/31856059/190926506-9459bdcb-d03b-4fc6-8881-afb06fde4d21.png">
