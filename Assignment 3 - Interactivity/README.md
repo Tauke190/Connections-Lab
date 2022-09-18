@@ -19,8 +19,6 @@ The Idea is to make a product viewing tab for E-commerce website with customer r
 2. Used function OnClick on the direclty linked with HTML to change the product image
 3. Used Onkeydown event to change the customer review based on the key pressed
 
-## Final Result ##
-![Homepage](https://github.com/Tauke190/Connections-Lab/blob/master/Assignment%202%20-%20Webpage/HomePage.png)
 
 
 
