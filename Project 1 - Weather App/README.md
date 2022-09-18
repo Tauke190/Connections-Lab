@@ -44,6 +44,6 @@ Pinpoint the location on the map to reveal its weather data
 
 ## References/Resources
 1. [Openweathermap API](https://openweathermap.org/api)
-2. [D3.js (JS library)]([https://openweathermap.org/api](https://d3js.org/))
-3. [Splash Image API]([https://unsplash.com/developers])
+2. [D3.js (JS library)](https://openweathermap.org/api](https://d3js.org/)
+3. [Splash Image API](https://unsplash.com/developers)
 
