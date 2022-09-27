@@ -1,12 +1,28 @@
 
 
+
+
+
+
+.country {
+    fill: lightgreen;
+    stroke: black;
+    stroke-opacity: 0.2;
+}
+
+
+.country:hover {
+    fill: red;
+}
+
 body {
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    margin: 0; 
+    background-color: blue;
+    /* background-image: url('https://source.unsplash.com/1600x900/?nature,water'); */
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 120%;
 }
