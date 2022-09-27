@@ -1,9 +1,21 @@
 
 
 
+
+let worldatlasURL = "https://unpkg.com/world-atlas@2.0.2/countries-110m.json";
+
+let worldmapdata;
+
+
+const svg = d3.select('svg');
+const projection = d3.geoMercator();
+const pathgenerator = d3.geoPath().projection(projection);
+
+
 window.addEventListener('load',(args) =>
 {
-    weather.getweather("Abu Dhabi");
+   // weather.getweather("Abu Dhabi");
+    loadworlddata();
    
 })
 
@@ -61,5 +73,39 @@ document.querySelector(".search-bar").addEventListener('keyup',function(event)
 })
 
 
+function loadworlddata()
+{
+    d3.json(worldatlasURL).then((data,error)=>{
 
+        if(error)
+        {
+            console.log(error);
+        }
+        else
+        {
+            worldmapdata = topojson.feature(data,data.objects.countries);
+            console.log(worldmapdata);
+            drawmap();
+           
+        }
+    })
+}
+
+
+function drawmap()
+{
+    svg.selectAll('path')
+        .data(worldmapdata.features)
+        .enter()
+        .append('path')
+        .attr('class','country')
+        .attr('d', pathgenerator)
+        .on('click' , (event,d) => {
+
+            const countryname = d.properties.name;
+            console.log(countryname);
+            weather.getweather(countryname);
+       })
+        .append('title')
+        .text((d) => d.properties.name)}
 
