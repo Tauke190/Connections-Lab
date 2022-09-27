@@ -1,8 +1,47 @@
 
 
 
+body {
+   display: flex;
+   justify-content: center;
+   flex-basis: auto;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-size: 120%;
+   margin: 0;
+   background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+}
 
 
+
+.WorldMap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: wheat;
+}
+
+.WorldMap svg{
+   border-radius: 40%;
+   border: #000000d0;
+   background-color: blue;
+   
+}
+
+.WorldMap h2{
+   margin: 0;
+   padding: 0px 0px 0px 0px;
+ }
+
+.weatherinfo 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 100vh;
+  
+}
 
 .country {
     fill: lightgreen;
@@ -15,17 +54,7 @@
     fill: red;
 }
 
-body {
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0; 
-    background-color: blue;
-    /* background-image: url('https://source.unsplash.com/1600x900/?nature,water'); */
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 120%;
-}
+
 
 .card {
     background: #000000d0;
@@ -84,7 +113,6 @@ input.search-bar {
     display: flex;
     align-items:flex-start;
     transform: translate(-20px,0);
-
 }
 
 .temp {
