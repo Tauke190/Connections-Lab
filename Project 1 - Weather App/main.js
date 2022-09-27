@@ -14,10 +14,9 @@ const pathgenerator = d3.geoPath().projection(projection);
 
 window.addEventListener('load',(args) =>
 {
-   // weather.getweather("Abu Dhabi");
+    weather.getweather("Abu Dhabi");
     loadworlddata();
-   
-})
+}) 
 
 let weather = {
     "apikey" : "8bb258cb533c024bda6d526ee6aa49d3",
