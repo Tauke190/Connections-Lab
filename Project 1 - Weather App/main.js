@@ -7,9 +7,9 @@ let worldatlasURL = "https://unpkg.com/world-atlas@2.0.2/countries-110m.json";
 let worldmapdata;
 
 
-const svg = d3.select('svg');
-const projection = d3.geoMercator();
-const pathgenerator = d3.geoPath().projection(projection);
+const svg = d3.select('svg');                                                                                     // D3 Function to select the svg element in the HTML
+const projection = d3.geoMercator();                                                                              // Intializing the projector
+const pathgenerator = d3.geoPath().projection(projection);                                                        // Intializing the pathgenerator
 
 
 window.addEventListener('load',(args) =>
