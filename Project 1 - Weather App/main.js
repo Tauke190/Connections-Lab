@@ -18,17 +18,17 @@ window.addEventListener('load',(args) =>
     loadworlddata();
 }) 
 
-let weather = {
+let weather = {                                                                                                     // An object that encapsulates all the function about retriveing data from the API and displaying them in the webpage
     "apikey" : "8bb258cb533c024bda6d526ee6aa49d3",
 
-    getweather : function(city)
+    getweather : function(city)                                                                                         
     {
-        fetch("https://api.openweathermap.org/data/2.5/weather?q="+city+ "&units=metric&appid=" +  this.apikey)
+        fetch("https://api.openweathermap.org/data/2.5/weather?q="+city+ "&units=metric&appid=" +  this.apikey)     // Using Fetch API to get the API
         .then((response) =>response.json())
         .then((data) => this.displayweather(data));
     },
 
-    displayweather: function(data)
+    displayweather: function(data)                                                                                  // Displayweather updates the CSS selectors and the HTML tags and populate them with the relevant information
     {
         const { name } = data;
         const {icon,description } = data.weather[0];
@@ -49,7 +49,7 @@ let weather = {
      
         if(description === "clear sky")
         {
-            document.querySelector("#videoBG").src = "/Videos/Sunny.mp4";
+            document.querySelector("#videoBG").src = "/Videos/Sunny.mp4";                                           // Sets the background according to the description of the weather
         }
         if(description === "overcast clouds" || description === "broken clouds" || description === "scattered clouds" || description === "few clouds")
         {
@@ -61,7 +61,7 @@ let weather = {
         }
     },
     
-    search: function() {
+    search: function() {                                                                                            // Finds the search bar in the CSS and HTML
         let value = document.querySelector(".search-bar").value;
         console.log(value);
         this.getweather(value);
@@ -69,12 +69,12 @@ let weather = {
     }
 };
 
-document.querySelector(".search button").addEventListener('click',function()
+document.querySelector(".search button").addEventListener('click',function()                                        //Finds the search button
 {
    weather.search();
 })
 
-document.querySelector(".search-bar").addEventListener('keyup',function(event)
+document.querySelector(".search-bar").addEventListener('keyup',function(event)                                      
 {
     if(event.key === "Enter")
     {
@@ -94,8 +94,7 @@ function loadworlddata()
         }
         else
         {
-            worldmapdata = topojson.feature(data,data.objects.countries);
-            console.log(worldmapdata);
+            worldmapdata = topojson.feature(data,data.objects.countries);                                        // Extract the information the JSON file and puts it in the worldmap data
             drawmap();
            
         }
@@ -105,17 +104,15 @@ function loadworlddata()
 
 function drawmap()
 {
-    svg.selectAll('path')
+    svg.selectAll('path')                                                                                        // Darws the boundries of the countries using the extracted data
         .data(worldmapdata.features)
         .enter()
         .append('path')
-        .attr('class','country')
-        .attr('d', pathgenerator)
-        .on('click' , (event,d) => {
-
-            const countryname = d.properties.name;
-            console.log(countryname);
-            weather.getweather(countryname);
+        .attr('class','country')                                                                                 // Adds a div class to this element
+        .attr('d', pathgenerator)                                                                                // Generates the path using the mercantile projection
+        .on('click' , (event,d) => {                                                                             // Whenever you click in the map , it returns the country name
+            const countryname = d.properties.name;                                                               // Use that name to get the weather of that country with the get weather function
+            weather.getweather(countryname);                                                            
        })
         .append('title')
         .text((d) => d.properties.name)}
