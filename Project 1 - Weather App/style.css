@@ -12,15 +12,23 @@ body {
 }
 
 
-
 .WorldMap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: wheat;
+    background-color: none;
+
 }
 
+
+#videoBG {
+    width: 100%;
+    height: 100vh;
+    transform: translate(-390px,0);
+    position: fixed;
+    z-index: -1
+}
 .WorldMap svg{
    border-radius: 40%;
    border: #000000d0;
