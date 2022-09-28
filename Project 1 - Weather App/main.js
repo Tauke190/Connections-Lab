@@ -46,7 +46,19 @@ let weather = {
         document.querySelector(".weather").classList.remove("loading");
         document.body.style.backgroundImage =  "url('https://source.unsplash.com/1600x900/?"+name+ "')"
 
-
+     
+        if(description === "clear sky")
+        {
+            document.querySelector("#videoBG").src = "/Videos/Sunny.mp4";
+        }
+        if(description === "overcast clouds" || description === "broken clouds" || description === "scattered clouds" || description === "few clouds")
+        {
+            document.querySelector("#videoBG").src = "/Videos/Overcast.mp4";
+        }
+        if(description === "light rain" || description === "moderate rain")
+        {
+            document.querySelector("#videoBG").src = "/Videos/Rainy.mp4";
+        }
     },
     
     search: function() {
