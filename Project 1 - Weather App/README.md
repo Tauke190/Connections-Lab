@@ -37,6 +37,7 @@ Pinpoint the location on the map to reveal its weather data
 2. Learning D3.js which is a java script library for data visualization
 3. Understanding the Object oriented method in javascript 
 <img width="751" alt="Screen Shot 2022-09-19 at 12 17 58 AM" src="https://user-images.githubusercontent.com/31856059/190926685-3a635755-ea65-48f7-bd8e-09319b6c2beb.png">
+4. Setting the background of SVG as a video but not the body background
 
  ![Key Challenges 1](https://github.com/Tauke190/Connections-Lab/blob/master/Project%201%20-%20Weather%20App/Challenge%20D3.png)
  
