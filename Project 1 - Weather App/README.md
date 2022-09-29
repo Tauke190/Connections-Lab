@@ -15,6 +15,13 @@ I aim to create a very simple weather web app that can display the image of the 
 ![WireFrame](https://raw.githubusercontent.com/Tauke190/Connections-Lab/master/Project%201%20-%20Weather%20App/Wireframe.png)
 
 
+### Motivation && Inspiration
+1.What if I have trouble remembering names?
+2.What if I need to know the basic weather of a place quicky?
+3.The power of D3.js to draw SVG
+4.Love for geography
+
+
 ### Technical Decision ###
 1. I am exploring API which provides relevant weather data
 2. I plan to use D3.js library because of its flexibility to draw SVG files from JSON data
@@ -49,7 +56,7 @@ Pinpoint the location on the map to reveal its weather data
  ![Key Challenges 2](https://raw.githubusercontent.com/Tauke190/Connections-Lab/master/Project%201%20-%20Weather%20App/Screen%20Shot%202022-09-29%20at%209.48.31%20AM.png)
 
 
-## Next Steps 
+## 25-Sept (Next Steps)
 
 1. Incorporating D3.js for drawing the SVG of the world map from the geographical co-ordinates encoded in JSON
 2. Incorporation p5.js for additional interactivity in the Web App
@@ -57,6 +64,12 @@ Pinpoint the location on the map to reveal its weather data
 4. Styling the elements better and addding animation in the website
 5. Adding a load screen for the images because it takes some time to download the images from the API , or adding a small game during the load time
 
+
+## 29-Sept (Next Steps)
+1. Zooming in Feature so you can see weather of specific cities
+2. Adding the past history of major weather events in that specific place
+3. Adding live clipart animation overlaying the map showing the weather of many places at once 
+4. Adding major landmarks of that place so that you can learn about that country as you browse through the weather
 
 ## References/Resources
 1. [Openweathermap API](https://openweathermap.org/api)
