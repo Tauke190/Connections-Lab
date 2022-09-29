@@ -21,7 +21,7 @@ I aim to create a very simple weather web app that can display the image of the 
 2. What if I need to know the basic weather of a place quicky?
 3. The power of D3.js to draw SVG
 4. Love for geography
-5. ![Intro](https://github.com/Tauke190/Connections-Lab/blob/master/Project%201%20-%20Weather%20App/Screen%20Shot%202022-09-29%20at%2011.10.47%20PM.png)
+![Intro](https://github.com/Tauke190/Connections-Lab/blob/master/Project%201%20-%20Weather%20App/Screen%20Shot%202022-09-29%20at%2011.10.47%20PM.png)
 
 
 ### Technical Decision ###
