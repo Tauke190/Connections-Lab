@@ -16,10 +16,10 @@ I aim to create a very simple weather web app that can display the image of the 
 
 
 ### Motivation && Inspiration
-1.What if I have trouble remembering names?
-2.What if I need to know the basic weather of a place quicky?
-3.The power of D3.js to draw SVG
-4.Love for geography
+1. What if I have trouble remembering names?
+2. What if I need to know the basic weather of a place quicky?
+3. The power of D3.js to draw SVG
+4. Love for geography
 
 
 ### Technical Decision ###
