@@ -27,6 +27,8 @@ I aim to create a very simple weather web app that can display the image of the 
 
 ![4500px-A_large_blank_world_map_with_oceans_marked_in_blue svg](https://user-images.githubusercontent.com/31856059/190926490-69cff088-65f5-4c63-9855-7edf64bd52ac.png)
 
+![](https://raw.githubusercontent.com/Tauke190/Connections-Lab/master/Project%201%20-%20Weather%20App/Screen%20Shot%202022-09-29%20at%209.48.31%20AM.png)
+
 Pinpoint the location on the map to reveal its weather data
 
 ## Key Challenges
