@@ -36,6 +36,8 @@ Pinpoint the location on the map to reveal its weather data
 3. Understanding the Object oriented method in javascript 
 <img width="751" alt="Screen Shot 2022-09-19 at 12 17 58 AM" src="https://user-images.githubusercontent.com/31856059/190926685-3a635755-ea65-48f7-bd8e-09319b6c2beb.png">
 
+ ![Key Challenges](https://github.com/Tauke190/Connections-Lab/blob/master/Project%201%20-%20Weather%20App/Challenge%20D3.png)
+
 
 ## Next Steps 
 
@@ -50,4 +52,8 @@ Pinpoint the location on the map to reveal its weather data
 1. [Openweathermap API](https://openweathermap.org/api)
 2. [D3.js - JS library](https://openweathermap.org/api)
 3. [Splash Image API](https://unsplash.com/developers)
+
+
+## Final Result
+![Final Result](https://github.com/Tauke190/Connections-Lab/blob/master/Project%201%20-%20Weather%20App/Final.png)
 
