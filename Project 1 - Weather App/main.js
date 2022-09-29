@@ -49,15 +49,15 @@ let weather = {                                                                 
      
         if(description === "clear sky")
         {
-            document.querySelector("#videoBG").src = "/Videos/Sunny.mp4";                                           // Sets the background according to the description of the weather
+            document.querySelector("#videoBG").src = "/Project 1 - Weather App/Videos/Sunny.mp4";                                           // Sets the background according to the description of the weather
         }
         if(description === "overcast clouds" || description === "broken clouds" || description === "scattered clouds" || description === "few clouds")
         {
-            document.querySelector("#videoBG").src = "/Videos/Overcast.mp4";
+            document.querySelector("#videoBG").src = "Project 1 - Weather App/Videos/Overcast.mp4";
         }
         if(description === "light rain" || description === "moderate rain")
         {
-            document.querySelector("#videoBG").src = "/Videos/Rainy.mp4";
+            document.querySelector("#videoBG").src = "Project 1 - Weather App/Videos/Rainy.mp4";
         }
     },
     
