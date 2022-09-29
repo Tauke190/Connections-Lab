@@ -43,6 +43,9 @@ I aim to create a very simple weather web app that can display the image of the 
 
 
 
+##WorkFlow
+![](https://github.com/Tauke190/Connections-Lab/blob/master/Project%201%20-%20Weather%20App/Screen%20Shot%202022-09-29%20at%2011.11.13%20PM.png)
+
 Pinpoint the location on the map to reveal its weather data
 
 ## Key Challenges
