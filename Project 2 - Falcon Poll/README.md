@@ -11,3 +11,8 @@ You dont have to rely on the ROR anymore.A simple website that can visualize you
 ![](https://github.com/Tauke190/Connections-Lab/blob/master/Project%202%20-%20Falcon%20Poll/wireframe2.png)
 
 
+
+## Connectivity ##
+The main feature of the app is the real time poll and real time text review. So, when you select a course you have taken. You have to go through some verification process that you have actually taken that course.Then, you rate the course based difficulty , workload , exams , grading and professor.For now, you have to select a course and it redirects you to a new page. The ultimate aim is make a news feed of all the course reviews with the polls where you can scroll and see review overviews of different courses.
+
+
