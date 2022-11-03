@@ -7,7 +7,7 @@ You dont have to rely on the ROR anymore.A simple website that can visualize you
 
 
 ## Wireframe ##
-![https://github.com/Tauke190/Connections-Lab/blob/master/Project%202%20-%20Falcon%20Poll/wireframe1.png]
-![https://github.com/Tauke190/Connections-Lab/blob/master/Project%202%20-%20Falcon%20Poll/wireframe2.png]
+![](https://github.com/Tauke190/Connections-Lab/blob/master/Project%202%20-%20Falcon%20Poll/wireframe1.png)
+![](https://github.com/Tauke190/Connections-Lab/blob/master/Project%202%20-%20Falcon%20Poll/wireframe2.png)
 
 
